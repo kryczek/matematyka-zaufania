@@ -1,4 +1,5 @@
 /* Body */
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Oswald', sans-serif !important;
   text-transform: uppercase;
@@ -57,13 +58,36 @@ ul.navbar-nav.mr-auto {
   margin-left: 2rem;
 }
 
+/*Section body */
+section {
+  padding: 4rem 0rem;
+  border: 0;
+  background: transparent;
+}
+
+.bg-sand {
+  background: #F2F2E6;
+}
+
 /*Section header */
 .section-header {
     margin-top: 7rem;
-    padding: 4rem 0rem;
     background: url(../images/bg-header.png) no-repeat center center;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
+}
+
+/*Section about */
+.section-book-top {
+  margin: -2.5rem 0 -1px;
+  padding: 0rem;
+  text-align: center;
+}
+
+.section-book-bottom {
+  margin: -1px 0 0;
+  padding: 0rem;
+  text-align: center;
 }
