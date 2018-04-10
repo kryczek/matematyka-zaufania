@@ -16,9 +16,25 @@ ul.navbar-nav.mr-auto {
 }
 
 .nav-link {
-  color: black;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 1rem 0.5rem !important;
 }
 
 .nav-link:hover {
   color: black;
+}
+
+.btn-red {
+  background: #E21D3C;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: capitalize;
+  font-size: 23px !important;
+  border-radius: 0px !important;
+  padding: 0.7rem 2rem !important;
+  margin-left: 2rem;
 }
