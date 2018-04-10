@@ -1,0 +1,13 @@
+/* Body */
+
+/* Navbar */
+.navbar {
+  padding: 1.6rem 1rem !important;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+ul.navbar-nav.mr-auto {
+  margin-right: 0px !important;
+  margin-left: auto !important;
+}
