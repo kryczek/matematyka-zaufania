@@ -211,3 +211,17 @@ section {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+/* Section price table */
+.col-white {
+  border: 3px solid #E21D3C;
+  background: white;
+  margin-top: 2rem;
+}
+
+.col-red {
+  border: 2px solid #E21D3C;
+  background: #E21D3C;
+  color: #fff;
+  margin: 0 -3px;
+}
