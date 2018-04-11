@@ -117,21 +117,26 @@ section {
     background-size: cover;
 }
 
+ul {
+  padding-left: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+li:before {
+    content: '•';
+    margin-left: -15px;
+    position: absolute;
+}
 .list-red {
   color: #E21D3C;
   font-weight: bold;
-  padding-left: 0px;
 }
 
 .list-red li {
     padding-bottom: 1.3rem;
-    list-style: none;
-}
-
-.list-red li:before {
-    content: '•';
-    margin-left: -15px;
-    position: absolute;
 }
 
 /* section-quotation */
