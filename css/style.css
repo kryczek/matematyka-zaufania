@@ -234,3 +234,8 @@ li:before {
 .col-red, .col-white {
   padding: 2rem 3rem !important;
 }
+
+.price {
+    font-size: 3.5rem;
+    font-family: 'PT Sans', sans-serif;
+}
