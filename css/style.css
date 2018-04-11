@@ -215,6 +215,10 @@ li:before {
 }
 
 /* Section price table */
+.section-price {
+  padding: 7rem 0 !important;
+}
+
 .col-white {
   border: 2px solid #E21D3C;
   background: white;
