@@ -154,3 +154,12 @@ section {
 .section-icon h2 {
     font-size: 3rem;
 }
+
+/* Section with slider */
+.section-slider {
+  background: url(../images/bg-slider.png) no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
