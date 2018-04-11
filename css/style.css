@@ -49,6 +49,11 @@ ul.navbar-nav.mr-auto {
   color: black;
 }
 
+li.nav-item::before {
+    content: '';
+    margin-left: 0px;
+}
+
 .btn-red {
   background: #E21D3C;
   color: white;
@@ -84,6 +89,21 @@ section {
   margin-bottom: 2rem;
 }
 
+ul {
+  padding-left: 0px;
+}
+
+li {
+    list-style: none;
+    padding-bottom: 1.3rem;
+}
+
+li:before {
+    content: '•';
+    margin-left: -15px;
+    position: absolute;
+}
+
 /*Section header */
 .section-header {
     margin-top: 7rem;
@@ -117,20 +137,6 @@ section {
     background-size: cover;
 }
 
-ul {
-  padding-left: 0px;
-}
-
-li {
-    list-style: none;
-    padding-bottom: 1.3rem;
-}
-
-li:before {
-    content: '•';
-    margin-left: -15px;
-    position: absolute;
-}
 .list-red {
   color: #E21D3C;
   font-weight: bold;
@@ -277,3 +283,7 @@ li:before {
 }
 
 /* Footer */
+
+footer {
+  padding: 4rem;
+}
