@@ -251,7 +251,7 @@ li:before {
 }
 
 .col-red h2 {
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-size: 2.5rem;
     font-weight: 500;
 }
@@ -275,3 +275,5 @@ li:before {
 .col-red {
     margin-bottom: -3rem;
 }
+
+/* Footer */
