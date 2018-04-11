@@ -150,3 +150,7 @@ section {
   background: #E21D3C;
   text-align: center;
 }
+
+.section-icon h2 {
+    font-size: 3rem;
+}
