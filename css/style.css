@@ -125,5 +125,16 @@ section {
 
 /* section-quotation */
 .section-quotation {
-  
+  background: url(../images/bg-quote.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.title-red {
+  color: #E21D3C;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3.5rem;
 }
