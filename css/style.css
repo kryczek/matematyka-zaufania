@@ -144,7 +144,9 @@ section {
   font-size: 3.3rem;
 }
 
-/* Section about author */
-.section-author {
-
+/* Section with icon*/
+.section-icon{
+  color: #fff !important;
+  background: #E21D3C;
+  text-align: center;
 }
