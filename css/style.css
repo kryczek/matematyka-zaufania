@@ -49,6 +49,7 @@ ul.navbar-nav.mr-auto {
   color: black;
 }
 
+.footer-logo li:before,
 li.nav-item::before {
     content: '';
     margin-left: 0px;
@@ -285,7 +286,7 @@ li:before {
 /* Footer */
 
 footer {
-  padding: 9rem;
+  padding: 3rem 0 8.5rem;
   background-image: url(../images/bg-footer.png);
   background-position: left bottom;
   background-repeat: no-repeat;
@@ -310,4 +311,13 @@ footer {
 
 .logo-white {
     margin: 3.5rem 0 0 8rem !important;
+}
+
+.footer-logo {
+    position: absolute;
+    left: 0.5rem;
+}
+
+.footer-logo li{
+  padding-bottom: 0rem !important;
 }
