@@ -82,7 +82,7 @@ section {
 }
 
 .bg-red {
-  background: #E21D3C;
+  background-color: #E21D3C;
 }
 
 .space-bottom {
@@ -286,4 +286,7 @@ li:before {
 
 footer {
   padding: 4rem;
+  background-image: url(../images/bg-footer.png);
+  background-position: left bottom;
+  background-repeat: no-repeat;
 }
