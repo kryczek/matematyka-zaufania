@@ -76,6 +76,10 @@ section {
   background: #F2F2E6;
 }
 
+.bg-red {
+  background: #E21D3C;
+}
+
 .space-bottom {
   margin-bottom: 2rem;
 }
@@ -149,7 +153,6 @@ section {
 /* Section with icon*/
 .section-icon{
   color: #fff !important;
-  background: #E21D3C;
   text-align: center;
 }
 
