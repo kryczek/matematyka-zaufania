@@ -219,7 +219,7 @@ li:before {
 
 /* Section price table */
 .col-white {
-  border: 3px solid #E21D3C;
+  border: 2px solid #E21D3C;
   background: white;
   margin-top: 2rem;
 }
@@ -228,5 +228,9 @@ li:before {
   border: 2px solid #E21D3C;
   background: #E21D3C;
   color: #fff;
-  margin: 0 -3px;
+  margin: 0 -2px;
+}
+
+.col-red, .col-white {
+  padding: 2rem 3rem !important;
 }
