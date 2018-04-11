@@ -237,3 +237,11 @@ li:before {
     font-family: 'PT Sans', sans-serif;
     font-weight: 700;
 }
+
+.col-white .price {
+  color: #E21D3C;
+}
+
+.section-price ul {
+  font-weight: 400;
+}
