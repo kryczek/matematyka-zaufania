@@ -63,6 +63,8 @@ ul.navbar-nav.mr-auto {
   margin-left: 2rem;
 }
 
+button:focus {outline:0 !important;}
+
 /*Section body */
 section {
   padding: 4rem 0rem;
@@ -178,6 +180,7 @@ section {
     border: none;
     outline: none;
     background: transparent;
+    border: 0;
 }
 
 .slick-prev {
@@ -189,7 +192,7 @@ section {
 }
 
 .slick-next {
-    right: -105px;
+    right: -75px;
 }
 
 .slick-next:before {
