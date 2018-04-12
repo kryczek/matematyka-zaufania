@@ -330,9 +330,22 @@ footer {
 }
 
 /* Responsive */
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1921px) {
   .section-book-top,
   .section-book-bottom {
     display: none;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .section-book-top,
+  .section-book-bottom,
+  .footer-logo {
+    display: none;
+  }
+
+  footer {
+    padding: 3rem 0 8.5rem;
+    background-image: none;
   }
 }
