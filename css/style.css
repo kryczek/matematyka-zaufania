@@ -337,6 +337,27 @@ footer {
   }
 }
 
+@media screen and (max-width: 768px) {
+.col-right-border {
+  border-right: 0px;
+}
+.col-last-part {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+.logo-white {
+  margin: 0px !important;
+}
+
+footer .btn-white {
+    margin-top: 30px;
+}
+}
+
 @media screen and (max-width: 425px) {
   .section-book-top,
   .section-book-bottom,
