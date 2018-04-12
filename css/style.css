@@ -387,6 +387,15 @@ a.nav-link.btn.btn-red {
   margin-left: 0rem;
 }
 
+/* Section about book */
+.section-think {
+    background: url() !important;
+}
+
+.section-think .btn {
+    margin-bottom: 40px;
+}
+
 
 /* Footer */
 .col-right-border {
@@ -413,7 +422,7 @@ footer .btn-white {
 
   /* Button */
   .btn {
-    white-space: normal;
+    white-space: normal !important;
   }
 
   /* Slider */
@@ -438,4 +447,12 @@ footer .btn-white {
     padding: 3rem 0 8.5rem;
     background-image: none;
   }
+}
+
+@media screen and (max-width:375px) {
+  /* Navbar */
+  button.navbar-toggler,
+  button.navbar-toggler.collapsed {
+    margin: 0 auto;
+}
 }
