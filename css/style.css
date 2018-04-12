@@ -71,6 +71,13 @@ li.nav-item::before {
 
 button:focus {outline:0 !important;}
 
+button.navbar-toggler::before {
+    content: '☰';
+    color: #E21D3C;
+    font-size: 30px;
+    font-weight: bold;
+}
+
 /*Section body */
 section {
   padding: 4rem 0rem;
@@ -320,4 +327,12 @@ footer {
 
 .footer-logo li{
   padding-bottom: 0rem !important;
+}
+
+/* Responsive */
+@media screen and (min-width: 1920px) {
+  .section-book-top,
+  .section-book-bottom {
+    display: none;
+  }
 }
