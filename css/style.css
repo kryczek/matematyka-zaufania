@@ -344,6 +344,11 @@ footer {
     font-size: 1.1rem;
 }
 
+/* Button */
+.btn {
+  white-space: normal !important;
+}
+
   /* Slider */
   .slick-prev {
       left: 0;
@@ -396,6 +401,15 @@ a.nav-link.btn.btn-red {
     margin-bottom: 40px;
 }
 
+/* Section with price table */
+
+.section-price .col-lg-4 {
+    margin: 2rem !important;
+}
+
+.section-price .btn {
+  max-width: 100% !important;
+}
 
 /* Footer */
 .col-right-border {
@@ -419,11 +433,6 @@ footer .btn-white {
 }
 
 @media screen and (max-width: 425px) {
-
-  /* Button */
-  .btn {
-    white-space: normal !important;
-  }
 
   /* Slider */
   .slick-prev, .slick-next {
