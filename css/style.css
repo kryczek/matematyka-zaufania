@@ -290,6 +290,20 @@ li:before {
   padding: 0.7rem 2rem !important;
 }
 
+a.btn-red:hover {
+    opacity: 1;
+    color: #E21D3C;
+    border: 1px solid #E21D3C;
+    background: #fff;
+}
+
+a.btn-white:hover {
+    opacity: 1;
+    color: #fff;
+    border: 1px solid #fff;
+    background: #E21D3C;
+}
+
 .col-red {
     margin-bottom: -3rem;
 }
