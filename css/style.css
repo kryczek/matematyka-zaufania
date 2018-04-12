@@ -337,6 +337,35 @@ footer {
   }
 }
 
+@media screen and (max-width: 1024px) {
+  /* Slider */
+  .slick-prev {
+      left: 0;
+  }
+
+  .slick-next {
+      right: 0;
+  }
+
+  .slick-prev, .slick-next {
+      font-size: 0;
+      line-height: 0;
+      position: absolute;
+      top: 90%;
+      width: 120px;
+      height: 120px;
+      margin-top: 0px;
+      padding: 0;
+      cursor: pointer;
+      color: transparent;
+      border: none;
+      outline: none;
+      background: transparent;
+      border: 0;
+  }
+
+}
+
 @media screen and (max-width: 768px) {
 
 /* Nav bar */
@@ -346,32 +375,6 @@ a.nav-link.btn.btn-red {
 
 .nav-item .btn-red {
   margin-left: 0rem;
-}
-
-/* Slider */
-.slick-prev {
-    left: 0;
-}
-
-.slick-next {
-    right: 0;
-}
-
-.slick-prev, .slick-next {
-    font-size: 0;
-    line-height: 0;
-    position: absolute;
-    top: 90%;
-    width: 120px;
-    height: 120px;
-    margin-top: 0px;
-    padding: 0;
-    cursor: pointer;
-    color: transparent;
-    border: none;
-    outline: none;
-    background: transparent;
-    border: 0;
 }
 
 
