@@ -338,6 +338,44 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+
+/* Nav bar */
+a.nav-link.btn.btn-red {
+    max-width: 230px;
+}
+
+.nav-item .btn-red {
+  margin-left: 0rem;
+}
+
+/* Slider */
+.slick-prev {
+    left: 0;
+}
+
+.slick-next {
+    right: 0;
+}
+
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 90%;
+    width: 120px;
+    height: 120px;
+    margin-top: 0px;
+    padding: 0;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+    border: 0;
+}
+
+
+/* Footer */
 .col-right-border {
   border-right: 0px;
 }
@@ -359,11 +397,29 @@ footer .btn-white {
 }
 
 @media screen and (max-width: 425px) {
+
+  /* Button */
+  .btn {
+    white-space: normal;
+  }
+
+  /* Slider */
+  .slick-prev, .slick-next {
+    top: 80%;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-size: 4rem;
+}
+
+  /*section lool like book */
   .section-book-top,
   .section-book-bottom,
   .footer-logo {
     display: none;
   }
+
+  /* Footer */
 
   footer {
     padding: 3rem 0 8.5rem;
