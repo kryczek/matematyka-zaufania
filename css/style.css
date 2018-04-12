@@ -129,6 +129,10 @@ li:before {
   text-align: center;
 }
 
+.section-header h3 {
+    font-weight: 300;
+}
+
 .section-book-bottom {
   margin: -1px 0 0;
   padding: 0rem;
