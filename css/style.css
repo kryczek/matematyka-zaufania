@@ -364,6 +364,10 @@ footer {
       border: 0;
   }
 
+  /*footer */
+  .logo-white {
+      margin: 3.5rem 0 0 0rem !important;
+  }
 }
 
 @media screen and (max-width: 768px) {
